@@ -1,0 +1,17 @@
+@import '../../styles/mixins';
+@import '../../styles/global.scss';
+
+.container {
+
+    &__titulo {
+        font-size: .8rem;
+        font-weight: 700;
+    }
+
+    &__input {
+        padding: .5rem;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid $cor-primaria;
+    }
+}
