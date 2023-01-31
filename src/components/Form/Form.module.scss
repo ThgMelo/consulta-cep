@@ -1,9 +1,8 @@
 @import '../../styles/variaveis';
-@import '../../styles/mixins';
 
 .form {
     background-color: $branco;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -13,6 +12,7 @@
     box-sizing: border-box;
     width: 90vw;
     max-width: 500px;
+    border-radius: 1rem;
 
     &__titulo{
         font-weight: 500;

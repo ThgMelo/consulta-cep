@@ -19,8 +19,9 @@
 
         &_input {
             width: 100%;
+            min-height: 1rem;
             padding: .5rem;
-            outline: none;
+            font-size: 1rem;
             border: 1px solid $cor-secundaria;
             border-radius: .6rem;
         }
