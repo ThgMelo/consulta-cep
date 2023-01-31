@@ -1,0 +1,32 @@
+@import '../../styles/variaveis';
+
+.outputs {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    width: 100%;
+
+    &__label {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    &__output {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        width: 100%;
+
+        &_input {
+            width: 100%;
+            padding: .5rem;
+            outline: none;
+            border: 1px solid $cor-secundaria;
+            border-radius: .6rem;
+        }
+
+        &_button {
+            cursor: pointer;
+        }
+    }
+}

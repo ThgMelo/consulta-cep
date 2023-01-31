@@ -10,11 +10,22 @@
     align-items: center;
     gap: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-sizing: border-box;
+    width: 90vw;
+    max-width: 500px;
 
     &__titulo{
         font-weight: 500;
         span {
             font-weight: 700;
         }
+    }
+
+    &__outputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: .5rem;
+        margin-top: 2rem;
     }
 }
